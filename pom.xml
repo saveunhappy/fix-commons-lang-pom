@@ -46,6 +46,14 @@
     <tag>commons-lang-3.9</tag>
   </scm>
 
+  <repositories>
+    <repository>
+      <id>alimaven</id>
+      <name>aliyun maven</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+    </repository>
+  </repositories>
+
   <!-- Lang should depend on very little -->
   <dependencies>
     <!-- testing -->
