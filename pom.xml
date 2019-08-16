@@ -63,7 +63,22 @@
       <version>5.5.0</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.easymock/easymock -->
+    <dependency>
+      <groupId>org.easymock</groupId>
+      <artifactId>easymock</artifactId>
+      <version>4.0</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.junit-pioneer/junit-pioneer -->
+    <dependency>
+      <groupId>org.junit-pioneer</groupId>
+      <artifactId>junit-pioneer</artifactId>
+      <version>0.3.0</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
+
 
   <distributionManagement>
     <site>
@@ -158,6 +173,5 @@
         </executions>
       </plugin>
     </plugins>
-
   </build>
 </project>
