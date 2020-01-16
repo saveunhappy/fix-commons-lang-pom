@@ -52,6 +52,9 @@
       <name>aliyun maven</name>
       <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
     </repository>
+    <!-- https://mvnrepository.com/artifact/org.easymock/easymock -->
+
+
   </repositories>
 
   <!-- Lang should depend on very little -->
@@ -61,6 +64,19 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
       <version>5.5.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.easymock</groupId>
+      <artifactId>easymock</artifactId>
+      <version>4.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.junit-pioneer/junit-pioneer -->
+    <dependency>
+      <groupId>org.junit-pioneer</groupId>
+      <artifactId>junit-pioneer</artifactId>
+      <version>0.5.1</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
