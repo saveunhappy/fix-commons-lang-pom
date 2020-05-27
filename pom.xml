@@ -32,6 +32,7 @@
   standard as to justify existence in java.lang.
   </description>
 
+
   <url>https://commons.apache.org/proper/commons-lang/</url>
 
   <issueManagement>
@@ -63,6 +64,19 @@
       <version>5.5.0</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.easymock</groupId>
+      <artifactId>easymock</artifactId>
+      <version>4.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit-pioneer</groupId>
+      <artifactId>junit-pioneer</artifactId>
+      <version>0.5.2</version>
+      <scope>test</scope>
+    </dependency>
+
   </dependencies>
 
   <distributionManagement>
