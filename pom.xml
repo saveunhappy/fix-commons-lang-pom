@@ -63,8 +63,19 @@
       <version>5.5.0</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.junit-pioneer</groupId>
+      <artifactId>junit-pioneer</artifactId>
+      <version>0.6.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.easymock</groupId>
+      <artifactId>easymock</artifactId>
+      <version>4.2</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
-
   <distributionManagement>
     <site>
       <id>apache.website</id>
@@ -84,6 +95,7 @@
        To override this when generating the download page:
 
        mvn commons:download-page -Dcommons.componentid=lang
+
 
        The above seems to change the download page name but not any other
        properties that depend on the componentid.
