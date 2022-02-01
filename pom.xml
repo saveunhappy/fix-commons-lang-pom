@@ -63,6 +63,19 @@
       <version>5.5.0</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.junit-pioneer</groupId>
+      <artifactId>junit-pioneer</artifactId>
+      <version>1.5.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.easymock</groupId>
+      <artifactId>easymock</artifactId>
+      <version>4.3</version>
+      <scope>test</scope>
+    </dependency>
+
   </dependencies>
 
   <distributionManagement>
@@ -135,7 +148,6 @@
     <commons.releaseManagerName>Rob Tompkins</commons.releaseManagerName>
     <commons.releaseManagerKey>B6E73D84EA4FCC47166087253FAAD2CD5ECBB314</commons.releaseManagerKey>
   </properties>
-
 
   <build>
     <plugins>
